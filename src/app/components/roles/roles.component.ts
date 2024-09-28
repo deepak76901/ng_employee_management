@@ -15,16 +15,18 @@ export class RolesComponent {
   isActive: boolean = false;
   currentDate: Date = new Date();
   selectedState: string = '';
-  greetName = "";
-
+  greetName = '';
 
   // Here I use Event Binding, check html file as well
-  showWelcome (){
-    alert("Welcome to Angular Tutorial")
+  showWelcome() {
+    alert('Welcome to Angular Tutorial');
   }
 
-  showWelcome2 (name : string){
-    alert(`Hi ${name}, Welcome in Angular Tutorial`)
+  showWelcome2(name: string) {
+    alert(`Hi ${name}, Welcome in Angular Tutorial`);
+  }
+
+  checkVar (){
+    console.log("Updated Var : ",this.frameworkName);
   }
 }
-
