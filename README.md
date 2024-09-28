@@ -11,3 +11,8 @@ ng g c component_name
 ```
 ng v
 ```
+## To Add Bootstrap
+If I used bootstrap in my Project, then i should add configuration in angular.json file in styles property
+```
+"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+```
