@@ -16,3 +16,5 @@ If I used bootstrap in my Project, then i should add configuration in angular.js
 ```
 "./node_modules/bootstrap/dist/css/bootstrap.min.css"
 ```
+## To fetch API's
+I need angular's http module and in app.config.ts i have to configure provideHttpClient in providers Array
