@@ -1,4 +1,23 @@
-<h2>Roles</h2>
+<div class="row mt-3">
+  <div class="col-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr no.</th>
+          <th>Role name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of roleList; let srno = index">
+          <td>{{item.roleId}}</td>
+          <td>{{item.role}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- <h2>Roles</h2>
 
 
 <div class="row">
@@ -16,7 +35,7 @@
   <div class="col-4">
     <button class="btn btn-warning m-2" *ngFor="let item of roleList">{{item.role}}</button>
   </div>
-</div>
+</div> -->
 
 <!--
 

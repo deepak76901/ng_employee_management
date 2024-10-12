@@ -18,3 +18,8 @@ If I used bootstrap in my Project, then i should add configuration in angular.js
 ```
 ## To fetch API's
 I need angular's http module and in app.config.ts i have to configure provideHttpClient in providers Array
+
+## To Create Service
+```
+    ng g s service_name
+```
